@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(32, 32, 32);
+    background-color: rgba(0, 2, 7, 0.932);
     color: #ffffff;
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
@@ -11,10 +11,18 @@ ul{
 
 .nav{
     margin-top: 25px;
-    margin-right: 225px;
+    margin-right: 180px;
     margin-bottom: -10px;
-    font-size: 35px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px;
+    display: block;
+}
 
+.about{
+    color: white;
+    font-weight: 800;
 }
 
 li {
@@ -47,6 +55,8 @@ hr.rule{
     width: 62.5%;
     margin-right: 3%;
     margin-top: 25px;
+    color:rgba(16, 219, 255, 0.123);
+    border-radius: 10px;
 }
 
 .dp {
@@ -54,6 +64,7 @@ hr.rule{
     width: 300px;
     height: 300px;
     margin-left: 7%;
+    margin-top: 5%;
 }
 
 .intro{
@@ -76,6 +87,7 @@ hr.rule{
     min-width: 300px;
     font-family: Arial, Helvetica, sans-serif;
    font-weight: 500;
+   transition: all 0.5s;
 }
 
 .boxed2{
@@ -92,6 +104,7 @@ hr.rule{
     min-width: 300px;
     font-family: Arial, Helvetica, sans-serif;
    font-weight: 500;
+   transition: all 0.5s;
 }
 
 .boxed3{
@@ -108,21 +121,25 @@ hr.rule{
     min-width: 300px;
    font-family: Arial, Helvetica, sans-serif;
    font-weight: 500;
+   transition: all 0.5s;
 }
 
 a.boxed1:hover{
     background-color: rgba(16, 219, 255, 0.795);
     color: white;
+    transition: 0.5s;
 }
 
 a.boxed2:hover{
     background-color: rgba(16, 219, 255, 0.795);
     color: white;
+    transition: 0.5s;
 }
 
 a.boxed3:hover{
     background-color: rgba(16, 219, 255, 0.795);
     color: white;
+    transition: 0.5s;
 }
 
 .leftpart{
@@ -134,14 +151,15 @@ a.boxed3:hover{
 
 .rightpart{
     display: inline;
-    float: right;
-    max-width: 61.5%;
-    margin-right: 55px;
+    float: left;
+    width: 61.5%;
+    margin-right: 0px;
+    margin-left: 90px;
 }
 
 .para{
     font-family: Arial, Helvetica, sans-serif;
-    color: rgba(255, 255, 255, 0.8)
+    color: lightgray;
 }
 
 .socialimage{
@@ -162,24 +180,70 @@ a.boxed3:hover{
 .footer{
     color: whitesmoke;
     text-align: center;
+    margin-bottom: auto;
 }
 
 hr.footline{
-    margin-top: 50%;
+    margin-top: .000000000000000000001%;
     border: 0.05px solid grey;
     width: 100%;
 }
 
 .head{
     font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0%;
+    margin-top: 2%;
 }
 
-.list{
-    position: fixed;
+.foot-para{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    align-items: center;
 }
 
-@media screen and (max-width: 800px) {
-    .nav, .leftpart, .rightpart, .para, .dp {
-      width: 25%; /* The width is 100%, when the viewport is 800px or smaller */
-    }
-  }
+.links{
+    color: #118ab2;
+    animation: 0.5s;
+    padding: 0%;
+}
+
+.links:hover{
+    color: grey;
+}
+
+.boxed4{
+    background-color: rgba(16, 219, 255, 0.123);
+    border: 1px solid #118ab2;
+    align-items: center;
+    border-radius: 3px;
+    color: #118ab2;
+    padding: 17px 96.2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 14px;
+    min-width: 300px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 500;
+   transition: all 0.5s;
+}
+
+.resume-para{
+    margin-top: 10%;
+}
+
+a.boxed4:hover{
+    background-color: rgba(16, 219, 255, 0.795);
+    color: white;
+    transition: 0.5s;
+}
+
+.github-link{
+    text-decoration: underline;
+    padding: 0%;
+}
+
+.github-link:hover{
+    text-decoration: none;
+}
